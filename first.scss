@@ -1,0 +1,331 @@
+$theme-color-1:#015c92;
+$theme-color-2:#2d82b5;
+$theme-color-3:rgb(83,166,216);
+$theme-color-4:#88cdf6;
+$theme-color-5:#bce6ff;
+$default-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$default-text-shadow:2px 2px 4px $theme-color-1;
+$div-default-bg-color:linear-gradient(to right,$theme-color-2,$theme-color-2,$theme-color-3,$theme-color-2,$theme-color-2,$theme-color-3);
+@mixin button-theme {
+    box-shadow: $default-box-shadow;
+    text-shadow: $default-text-shadow;
+    transition: all .3s ease;
+    outline: none;
+    cursor: pointer;   
+    background-color: transparent;
+    color:white;
+}
+@font-face{
+    font-family: apple;
+    src:url('Fonts/Apple Chancery Regular.ttf');  
+}
+@font-face{
+    font-family: des;
+    src:url('Fonts/Aldrich-Regular.ttf');
+}
+@font-face{
+    font-family: fom;
+    src:url('Fonts/REP2CN_.ttf');
+}
+@font-face{
+    font-family: gara;
+    src:url('Fonts/GARA.TTF');
+    
+}
+@font-face{
+    font-family: win;
+    src:url('Fonts/WINTAUNG.TTF');
+    
+}
+#first_body{
+    background: $theme-color-1;
+}
+
+#welcome_div{
+    margin:3% 16% 3% 16%;
+    height: 520px;
+    box-shadow: $default-box-shadow;
+    overflow: auto;
+    h2{
+        text-shadow: $default-text-shadow;
+        font-size: 320%;
+        color:white;
+        font-family: apple;
+        margin:2% 0 3% 2%;
+    }
+    background: $div-default-bg-color;
+    #left_div{
+        border:3px solid white;
+        box-shadow: $default-box-shadow;
+        border-radius: 5%;
+        width: 38%;
+        float: left;
+        margin-left: 2%;
+        #motto{
+            // background:linear-gradient(to right,white,whitesmoke,#e9e4f0,white,whitesmoke,#e9e4f0,white);
+            background: whitesmoke;
+            font-family: Gara;
+            border-radius: 7%;
+            // margin:2% 2% 2% 4%;
+            margin:0% 0% 0% 0%;
+            padding:2% 2% 2% 4%;
+            color:$theme-color-2;
+            font-size:300%;
+            font-weight: bold;
+        }
+    }
+    #right_div{
+        width: 58%;
+        float: right;
+        .w_btn{
+            @include button-theme;
+            border: 2px solid white;
+            border-radius: 20px;
+            font-size: 120%;
+            width:160px;
+            height:60px;
+            color: white;
+            background: transparent;
+            &:hover{
+                font-weight: bold;
+                background-color: rgba(255,255,255,0.5);
+            }
+            // &:focus{
+            //     border-radius: 4px;
+            //     box-shadow: 2px 2px 2px 0px black inset, -2px -2px 2px 0px white inset;
+            // }
+        }
+        #cate_btn{
+            margin-left: 33%;
+        }
+        #random_btn{
+            margin-top: 2%;
+            margin-left: 33%;
+        }
+        #credits_btn{
+            margin-top: 2%;
+            margin-left:33%;
+        }
+        #aboutus_btn{
+            text-align: justify;
+            font-size: 130%;
+            margin:5% 0 0 39%;
+            width: 100px;
+            height: 100px;
+            #abt{
+                margin-left:9px;
+            }
+        }
+    }
+    #description{
+        font-family: des;
+        color: white;
+        margin:33% 0 0 5%;
+        text-shadow: $default-text-shadow;
+    }
+    
+    
+    #dev{
+        text-shadow: $default-text-shadow;
+        font-family: des;
+        color: white;
+        margin:0 0 0 5%;
+    }
+    #fom{
+        font-weight: lighter;
+        font-family: fom;
+        color: white;
+    }
+}
+#descriptionM{
+    display: none;
+}
+#devM{
+    display: none;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background:linear-gradient(to right,$theme-color-2,$theme-color-1,$theme-color-2,$theme-color-3);
+    margin: auto;
+    padding: 20px;
+    // border: 3px solid #888;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    width: 50%;
+    #myan_data{
+        text-shadow: $default-text-shadow;
+        color:white;
+        font-family: win;
+        font-weight: bold;
+        margin:0 2% 0 2%;
+        font-size: 1.5vw;
+    }
+    #person_data{
+        text-shadow: $default-text-shadow;
+        color: white;
+        font-weight: bold;
+        margin:0 0 0 2%;
+        font-style: italic;
+        font-size:1.4vw;
+    }
+    .person_c{
+        text-shadow: $default-text-shadow;
+        text-decoration: none;
+        color:white;
+    }
+  }
+  h3{
+    color:white;
+    text-shadow: $default-text-shadow;
+      font-size: 190%;
+      margin:0 0 0 0;
+  }
+  #credits_p{
+    text-shadow: $default-text-shadow;
+    color:white;
+      font-size: 120%;
+      .credits_attr{
+          font-weight: bold;
+      }
+      .authors{
+          color:$theme-color-5;
+          text-shadow: $default-text-shadow;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      #litt{
+          display: none;
+      }
+  }
+  #aboutus_p{
+    text-shadow: $default-text-shadow;
+      color: white;
+      font-weight: lighter;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: sticky;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@media (max-width: 575.98px) {
+    #first_body{
+        h2{
+            font-size: 170%;
+            text-align: center;
+        }
+        #welcome_div{
+            margin:10% 10% 3% 10%;
+    
+        }
+        #left_div{
+            font-size: 50%;
+            width:90%;
+            float: none;
+            margin-left: 4%;
+            #motto{
+                font-size: 30px;
+            }
+        }
+        #right_div{
+            float: none;
+            margin:5% 10% 0 22%;
+            #cate_btn{
+                margin:0 0 0 0;
+            }
+            #random_btn{
+                margin:5% 0 0 0;
+            }
+            #credits_btn{
+                margin:5% 0 0 0;
+            }
+            #aboutus_btn{
+                font-size: 120%;
+                width:160px;
+                height:60px;
+                margin:5% 0 0 0;
+                text-align: center;
+            }
+        }
+        #description{
+            display: none;
+        }
+        #dev{
+            display: none;
+
+        }
+        #fom{
+            display: none;
+        }
+        #descriptionM{
+            display: block;
+            font-family: des;
+            color: white;
+            margin:10% 0 0 13%;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        #devM{
+            display: block;
+            text-shadow: 2px 2px 4px #000000;
+            font-family: des;
+            color: white;
+            margin:0 0 0 13%;
+        }
+        #fomM{
+            text-shadow: 2px 2px 4px #000000;
+            font-size:90%;
+            font-weight: lighter;
+            font-family: fom;
+            color: white;
+        }
+        .modal-content {
+            width: 80%;
+            height: 50%;
+            overflow: scroll;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            #myan_data{
+                font-weight: bold;
+                margin:0 2% 0 2%;
+                font-size: 140%;
+            }
+            #person_data{
+                font-weight: bold;
+                font-size:120%;
+            }
+        }
+        #litt{
+            display: block;
+        }
+    }
+    
+}

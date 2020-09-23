@@ -1,0 +1,352 @@
+@font-face {
+  font-family: apple;
+  src: url("Fonts/Apple Chancery Regular.ttf");
+}
+
+@font-face {
+  font-family: des;
+  src: url("Fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+  font-family: fom;
+  src: url("Fonts/REP2CN_.ttf");
+}
+
+@font-face {
+  font-family: gara;
+  src: url("Fonts/GARA.TTF");
+}
+
+@font-face {
+  font-family: win;
+  src: url("Fonts/WINTAUNG.TTF");
+}
+
+#first_body {
+  background: #015c92;
+}
+
+#welcome_div {
+  margin: 3% 16% 3% 16%;
+  height: 520px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+  background: -webkit-gradient(linear, left top, right top, from(#2d82b5), color-stop(#2d82b5), color-stop(#53a6d8), color-stop(#2d82b5), color-stop(#2d82b5), to(#53a6d8));
+  background: linear-gradient(to right, #2d82b5, #2d82b5, #53a6d8, #2d82b5, #2d82b5, #53a6d8);
+}
+
+#welcome_div h2 {
+  text-shadow: 2px 2px 4px #015c92;
+  font-size: 320%;
+  color: white;
+  font-family: apple;
+  margin: 2% 0 3% 2%;
+}
+
+#welcome_div #left_div {
+  border: 3px solid white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5%;
+  width: 38%;
+  float: left;
+  margin-left: 2%;
+}
+
+#welcome_div #left_div #motto {
+  background: whitesmoke;
+  font-family: Gara;
+  border-radius: 7%;
+  margin: 0% 0% 0% 0%;
+  padding: 2% 2% 2% 4%;
+  color: #2d82b5;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+#welcome_div #right_div {
+  width: 58%;
+  float: right;
+}
+
+#welcome_div #right_div .w_btn {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 4px #015c92;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 120%;
+  width: 160px;
+  height: 60px;
+  color: white;
+  background: transparent;
+}
+
+#welcome_div #right_div .w_btn:hover {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#welcome_div #right_div #cate_btn {
+  margin-left: 33%;
+}
+
+#welcome_div #right_div #random_btn {
+  margin-top: 2%;
+  margin-left: 33%;
+}
+
+#welcome_div #right_div #credits_btn {
+  margin-top: 2%;
+  margin-left: 33%;
+}
+
+#welcome_div #right_div #aboutus_btn {
+  text-align: justify;
+  font-size: 130%;
+  margin: 5% 0 0 39%;
+  width: 100px;
+  height: 100px;
+}
+
+#welcome_div #right_div #aboutus_btn #abt {
+  margin-left: 9px;
+}
+
+#welcome_div #description {
+  font-family: des;
+  color: white;
+  margin: 33% 0 0 5%;
+  text-shadow: 2px 2px 4px #015c92;
+}
+
+#welcome_div #dev {
+  text-shadow: 2px 2px 4px #015c92;
+  font-family: des;
+  color: white;
+  margin: 0 0 0 5%;
+}
+
+#welcome_div #fom {
+  font-weight: lighter;
+  font-family: fom;
+  color: white;
+}
+
+#descriptionM {
+  display: none;
+}
+
+#devM {
+  display: none;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background: -webkit-gradient(linear, left top, right top, from(#2d82b5), color-stop(#015c92), color-stop(#2d82b5), to(#53a6d8));
+  background: linear-gradient(to right, #2d82b5, #015c92, #2d82b5, #53a6d8);
+  margin: auto;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  width: 50%;
+}
+
+.modal-content #myan_data {
+  text-shadow: 2px 2px 4px #015c92;
+  color: white;
+  font-family: win;
+  font-weight: bold;
+  margin: 0 2% 0 2%;
+  font-size: 1.5vw;
+}
+
+.modal-content #person_data {
+  text-shadow: 2px 2px 4px #015c92;
+  color: white;
+  font-weight: bold;
+  margin: 0 0 0 2%;
+  font-style: italic;
+  font-size: 1.4vw;
+}
+
+.modal-content .person_c {
+  text-shadow: 2px 2px 4px #015c92;
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #015c92;
+  font-size: 190%;
+  margin: 0 0 0 0;
+}
+
+#credits_p {
+  text-shadow: 2px 2px 4px #015c92;
+  color: white;
+  font-size: 120%;
+}
+
+#credits_p .credits_attr {
+  font-weight: bold;
+}
+
+#credits_p .authors {
+  color: #bce6ff;
+  text-shadow: 2px 2px 4px #015c92;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#credits_p #litt {
+  display: none;
+}
+
+#aboutus_p {
+  text-shadow: 2px 2px 4px #015c92;
+  color: white;
+  font-weight: lighter;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.close:hover,
+.close:focus {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  #first_body h2 {
+    font-size: 170%;
+    text-align: center;
+  }
+  #first_body #welcome_div {
+    margin: 10% 10% 3% 10%;
+  }
+  #first_body #left_div {
+    font-size: 50%;
+    width: 90%;
+    float: none;
+    margin-left: 4%;
+  }
+  #first_body #left_div #motto {
+    font-size: 30px;
+  }
+  #first_body #right_div {
+    float: none;
+    margin: 5% 10% 0 22%;
+  }
+  #first_body #right_div #cate_btn {
+    margin: 0 0 0 0;
+  }
+  #first_body #right_div #random_btn {
+    margin: 5% 0 0 0;
+  }
+  #first_body #right_div #credits_btn {
+    margin: 5% 0 0 0;
+  }
+  #first_body #right_div #aboutus_btn {
+    font-size: 120%;
+    width: 160px;
+    height: 60px;
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+  #first_body #description {
+    display: none;
+  }
+  #first_body #dev {
+    display: none;
+  }
+  #first_body #fom {
+    display: none;
+  }
+  #first_body #descriptionM {
+    display: block;
+    font-family: des;
+    color: white;
+    margin: 10% 0 0 13%;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  #first_body #devM {
+    display: block;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: des;
+    color: white;
+    margin: 0 0 0 13%;
+  }
+  #first_body #fomM {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 90%;
+    font-weight: lighter;
+    font-family: fom;
+    color: white;
+  }
+  #first_body .modal-content {
+    width: 80%;
+    height: 50%;
+    overflow: scroll;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  #first_body .modal-content #myan_data {
+    font-weight: bold;
+    margin: 0 2% 0 2%;
+    font-size: 140%;
+  }
+  #first_body .modal-content #person_data {
+    font-weight: bold;
+    font-size: 120%;
+  }
+  #first_body #litt {
+    display: block;
+  }
+}
+/*# sourceMappingURL=first.css.map */

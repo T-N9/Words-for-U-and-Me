@@ -1,0 +1,278 @@
+create table dgu(dgu_id int(9) not null auto_increment,eng_data varchar(500),
+myan_data varchar(500),
+person varchar(200),
+person_name varchar(100),
+primary key(dgu_id));
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You're never a loser until you quit trying.","ကြိုးစားတာကို မရပ်သ၍ သင် ဘယ်တော့မှ မရှုံးနိမ့်ပါဘူး။","<a class='person_c' href='https://en.wikipedia.org/wiki/Mike_Ditka' target='_blank'>Mike Ditka</a>","Mike Ditka");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Learn how to be a loser, because it's important to be a loser to be a winner.","ဘယ်လိုရှုံးရမလဲဆိုတာ သင်ယူပါ။ ဘာလို့ဆို အရှုံးသမားကနေ အောင်နိုင်သူဖြစ်ဖို့ အဲဒါဟာ အရေးပါလို့ပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Sanford_I._Weill' target='_blank'>Sanford I.Weill</a>","Sanford I.Weill");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("There's nothing wrong with being a loser, it just depends on how good you are at it.","အရှုံးသမားဖြစ်ရတာနဲ့ ပက်သက်ပြီး ဘာမှ အမှားမရှိပါဘူး။ သင် အဲဒီနေရာမှာ ဘယ်လောက်ကောင်းကောင်း လုပ်နိုင်သလဲ ဆိုတဲ့အပေါ်မှာပဲ မူတည်တယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Billie_Joe_Armstrong' target='_blank'>Billie Joe Armstrong</a>","Billie Joe Armstrong");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Second place is just the first place loser.","ဒုတိယနေရာဆိုတာ ပထမနေရာကို ဆုံးရှုံးရသူပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Soichiro_Honda' target='_blank'>Soichiro Honda</a>","Soichiro Honda");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I am not a loser cos I've never quitted.","ကျွန်တော်ဟာ အရှုံးသမား မဟုတ်ဘူး။ ဘာကြောင့်ဆို ကျွန်တော်က ဘယ်တုန်းကမှ လက်မလျှော့ခဲ့လို့ပဲ။","Unknown","Unknown");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("To be a good loser is to learn how to win.","အရှုံးသမားကောင်းတစ်ယောက်ဖြစ်ဖို့ဆိုတာ ဘယ်လိုအနိုင်ယူရမလဲ သင်ယူတတ်ဖို့ပါပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Carl_Sandburg' target='_blank'>Carl Sandburg</a>","Carl Sandburg");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You have to be able to be a good loser. You have to be okay knowing you're going to fail every day in something without getting mad and upset.","သင်ဟာ အရှုံးသမားကောင်းတစ်ယောက် ဖြစ်ဖို့ လိုတယ်။ ပြီးတော့ နေ့တိုင်း တစ်နေရာရာမှာ ရှုံးနိမ့်မယ်ဆိုတာ သိပြီး၊ သိတိုင်းလည်း စိတ်ဓာတ်မကျ၊ ဝမ်းမနည်းဘဲ အမြဲအဆင်ပြေနေရမယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Dan_O%27Brien' target='_blank'>Dan O'Brien</a>","Dan O'Brien");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("A winner rebukes and forgives; a loser is too timid to rebuke and too petty to forgive.","အောင်နိုင်သူက အပြစ်တင်စရာရှိ တင်၊ ပြီးရင် ခွင့်လွှတ်မယ်။ ရှုံးနိမ့်သူကတော့ အပြစ်တင်ရမှာ တွန့်ဆုတ်နေပြီး ခွင့်လွှတ်ဖို့လည်း အရေးမကြီးဘူး။","<a class='person_c' href='https://en.wikipedia.org/wiki/Sydney_J._Harris' target='_blank'>Sydney J.Harris</a>","Sydney J.Harris");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Employee of the month is a good example of how somebody can be both a winner and a loser at the same time.","လူတွေဟာ တစ်ချိန်တည်းမှာပဲ အောင်နိုင်သူရော၊ ရှုံးနိမ့်သူပါ ဖြစ်နိုင်တယ်ဆိုတာ ဒီလအတွက် အတော်ဆုံးဝန်ထမ်းဆိုတဲ့ ဓာတ်ပုံက သက်သေပါပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Demetri_Martin' target='_blank'>Demetri Martin</a>","Demetri Martin");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("If at first you don't succeed, find out if the loser gets anything.","ပထမဆုံးအကြိမ်မှာ သင်မအောင်မြင်ခဲ့ရင် အဲဒီအရှုံးထဲက ဘာရသလဲဆိုတာ ရှာဖွေကြည့်လိုက်။","<a class='person_c' href='https://en.wikipedia.org/wiki/William_Lyon_Phelps' target='_blank'>William Lyon Phelps</a>","William Lyon Phelps");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You must never be satisfied with losing. You must get angry, terribly angry,about losing. But the mark of the good loser is that he takes his anger out on himself and not his victorious opponets or on his teammates.","သင်ဟာ အရှုံးနဲ့ပက်သက်လို့ ဘယ်တော့မှ စိတ်ချမ်းသာမှာ မဟုတ်ဘူး။ အရှုံးနဲ့ ပက်သက်ပြီး စိတ်တိုမယ်၊ဒေါသထွက်မယ်၊ ဒါပေမဲ့ အကောင်းဆုံးအရှုံးသမားတွေရဲ့ ပြယုဂ်က ဘာလဲဆိုရင် အနိုင်ယူသွားတဲ့ ပြိုင်ဘက်တွေအပေါ်မှာရော၊ အသင်းဖော်တွေအပေါ်မှာရော ဒေါသကို မပုံချဘဲ မိမိကိုယ်ကိုပဲ အပြစ်တင် မကျေနပ်တတ်သူပါတဲ့။","<a class='person_c' href='https://en.wikipedia.org/wiki/Richard_Nixon' target='_blank'>Richard M.Nixon</a>","Richard M.Nixon");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Everyone is a loser. Winner are just losers with more patience.","လူတိုင်းက အရှုံးသမားတွေပါ။ အောင်မြင်သူတွေဆိုတာ နည်းနည်းပိုသည်းခံနိုင်ခဲ့တဲ့ အရှုံးသမားတွေသာ။","<a class='person_c' href='https://en.wikipedia.org/wiki/George_Hammond_(Stargate)' target='_blank'>George Hammond</a>","George Hammond");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("History isn't written by the winners OR the losers; it's written by the writers.","သမိုင်းဆိုတာ နိုင်သူလည်း မရေးဘူး၊ ရှုံးသူလည်း မရေးဘူး။ စာရေးဆရာတွေပဲရေးခဲ့ကြတာ။","<a class='person_c' href='https://www.imdb.com/name/nm6248253/' target='_blank'>Alan C.Baird</a>","Alan C.Baird");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Winners have simply formed the habit of doing things losers don't like to do.","အောင်မြင်သူတွေဆိုတာ အရှုံးသမားတွေ မလုပ်ချင်တဲ့ အကျင်းအကြံတွေကို ရိုးရိုးလေး ဖန်တီးရယူနိုင်ခဲ့ကြတဲ့သူတွေပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Albert_Gray' target='_blank'>Albert Gray</a>","Albert Gray");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Winners see the gain; losers see the pain.","အောင်နိုင်သူတွေက ဆုလာဘ်ကို မြင်တယ်၊ ရှုံနိမ့်သူတွေက နာကျင်မှုကိုပဲ မြင်တယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Shiv_Khera' target='_blank'>Shiv Khera</a>","Shiv Khera");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The moment you think that your destiny is predetermined, you become a miserable loser! Trust your own power so that you can shape your own destiny!","ကံကြမ္မာက သတ်မှတ်ထားပြီးသားလို့ မြင်ရင် သင် အဆိုးဆုံးအရှုံးသမား ဖြစ်လာလိမ့်မယ်။ ကိုယ့်ကိုယ်ပိုင် အစွမ်းအစအပေါ် ယုံကြည်မှသာ ကိုယ့်ကြမ္မာ ကိုယ်လိုသလို ပုံဖော်ယူလို့ရမယ်။","<a class='person_c' href='https://g.co/kgs/hkJj8U' target='_blank'>Mehmet Murat ildan</a>","Mehmet Murat ildan");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Most complain about dried up lawns; others envy a neighbor's green lawn, but winners learn from all lawns while cultivating their own.","အများစုက မြက်ခင်းတွေ ခြောက်ကုန်တာနဲ့ ပက်သက်ပြီး ညည်းတွားကြတယ်။ အချို့က အိမ်နီးချင်းရဲ့ မြက်ခင်းစိမ်းစိမ်းကို အားကျတယ်။ အောင်နိုင်သူတွေက သူတို့ကိုယ်တိုင် မြက်ခင်းပျိုးနေတုန်း အားလုံးဆီက သင်ခန်းစာယူသွားတယ်။","<a class='person_c' href='http://orrinwoodward.com/' target='_blank'>Orrin Woodward</a>","Orrin Woodward");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Adversity discourage losers; adversity inspires winners.","အခက်အခဲက အရှုံးသမားတွေကို စိတ်ဓာတ်ကျစေတယ်။ အခက်အခဲက အောင်မြင်သူတွေကို တက်ကြွထက်သန်စေတယ်။","<a class='person_c' href='https://g.co/kgs/Cafg7C' target='_blank'>Debasish Mridha</a>","Debasish Mridha");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Winners never cheat because cheaters never win and I'd rather be a loser than a quitter who never had a chance to be either.","ောင်နိုင်သူတွေက မညစ်ပတ်သလို ညစ်ပတ်ရင်လည်း မအောင်မြင်နိုင်ဘူး။ ဘယ်တော့မှ အခွင့်အရေးမရတော့မယ့် နုတ်ထွက်သွားသူထက်စာရင် ကြိုးစားခွင့်ရှိတဲ့ အရှုံးသမားပဲ ဖြစ်ချင်တယ်။","<a class='person_c' href='https://www.goodreads.com/author/quotes/15512233.FL_dash_OH' target='_blank'>FL-dash-OH</a>","FL-dash-OH");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Losers sulk; posers talk; winners walk- choose wisely.","အရှုံးသမားတွေက စိတ်ဓာတ်ကျတယ်။ လေသမားတွေက အပြောဘဲရှိတယ်။ အောင်နိုင်သူတွေက တစ်လှမ်းချင်းလျှောက်တယ်။ ဉာဏ်ရှိရှိ ရွေးချယ်ပါ။","<a class='person_c' href='http://orrinwoodward.com/' target='_blank'>Orrin Woodward</a>","Orrin Woodward");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Pressure squeezes effort out of winners and excuses out of losers.","ဖိအားတွေက အောင်နိုင်သူတွေဆီက ခွန်အားကို ညစ်ယူတယ်။ အရှုံးသမားတွေဆီကတော့ ဆင်ခြေတွေပဲ ရတယ်။","<a class='person_c' href='http://orrinwoodward.com/' target='_blank'>Orrin Woodward</a>","Orrin Woodward");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Success is not as easy as winners make it look nor as hard as losers make it sound.","အောင်မြင်မှုဆိုတာ ရတဲ့သူတွေ ယူသွားတာကို မြင်ရသလောက် မလွယ်သလို အရှုံးသမားတွေ ပြောသလောက်လည်း မခက်လှပါဘူး။","<a class='person_c' href='http://orrinwoodward.com/' target='_blank'>Orrin Woodward</a>","Orrin Woodward");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Those who don't want to take risks in life end up been the losers.","ဘဝမှာ မစွန့်စားချင်ရင်တော့ အရှုံးသမားအဖြစ် လမ်းဆုံးမှာပါဘဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Sunday_Adelaja' target='_blank'>Sunday Adelaja</a>","Sunday Adelaja");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Blames create no change; winners don't apportion blames; only losers have the potentials to do that!","အပြစ်တင်ခြင်းက ဘာကိုမှ မပြောင်းလဲနိုင်ဘူး။ အောင်နိုင်သူတွေက ဘယ်တော့မှ အပြစ်မတင်ဘူး၊ အရှုံးသမားတွေပဲ အဲဒီလို လုပ်တတ်တာ။","<a class='person_c' href='https://g.co/kgs/FvW7wx' target='_blank'>Israelmore Ayivor</a>","Israelmore Ayivor");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Every game has rules.Obey the rules,win the game; disobey the rule,lose it! The game of life has losers and winners. Play fairly and win!","ကစားပွဲတိုင်းမှာ စည်းမျဉ်းစည်းကမ်း ရှိတယ်။လိုက်နာရင် အောင်နိုင်မယ်။ မလိုက်နာရင် ကျရှုံးမယ်။ ဘဝကစားပွဲမှာ ရှုံးသူနိုင်သူတွေ ရှိကြတာပဲ။ မျှမျှတတ ယှဉ်ပြိုင်အနိုင်ယူပါ။","<a class='person_c' href='https://g.co/kgs/FvW7wx' target='_blank'>Israelmore Ayivor</a>","Israelmore Ayivor");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Be careful you don't give up on what is yet to give you victory. Many people quit when they were yet to win.","အောင်မြင်မှုရယူခါနီးမှ အရှုံးပေးလိုက်တာမျိုး မဖြစ်စေနဲ့။ လူတော်တော်များများက သူတို့အောင်မြင်ခါနီးမှာ အရှုံးပေးသွားတတ်ကြတယ်။","<a class='person_c' href='https://g.co/kgs/FvW7wx' target='_blank'>Israelmore Ayivor</a>","Israelmore Ayivor");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I'm a winner; I win most of the time. But in order to be a winner, you have to lose some of the time. I'm a terrible loser.","ကျွန်ုပ် အောင်နိုင်သူတစ်ယောက်ပါ။ အချိန်တော်တော်များများမှာ အနိုင်ရခဲ့တယ်။ ဒါပေမဲ့ အောင်နိုင်သူတစ်ယောက်ဖြစ်ဖို့ အချိန်တချို့ကိုတော့ အဆုံးရှုံးခံရမှာပဲ။ ဒါဆို ကျွန်ုပ်က အဆိုးဆုံး အရှုံးသမားတစ်ယောက်ပေါ့။","<a class='person_c' href='https://en.wikipedia.org/wiki/Coolio' target='_blank'>Coolio</a>","Coolio");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I am a total loser in every aspect of my life. I rarely go out. I have a great family and we spend all our time together. I work hard and play hard with them.","ဘဝရဲ့ မျက်နှာစာတော်တော်များများမှာ ငါက အရှုံးသမားတစ်ယောက်ပါ။ ဒါပေမဲ့ ငါဟာ တော်ရုံတန်ရုံ အရှုံးပေးခဲတယ်။ ငါ့မှာ အလွန်ကောင်းတဲ့ မိသားစုရှိပြီး သူတို့နဲ့အတူကြိုးစားတယ်။ သူတို့နဲ့အတူ ပင်ပင်ပန်းပန်းလုပ်ပြီး ပျော်ပျော်ပါးပါး ငါကစားတယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Sean_Hannity' target='_blank'>Sean Hannity</a>","Sean Hannity");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You have a winner and a loser and that doesn't bother me, I am man enough to accept it.","သင့်မှာ အောင်နိုင်သူပဲရှိရှိ၊ အရှုံးသမားပဲရှိရှိ ဘာမှ မဖြစ်ဘူး။ အဲဒါကို လက်ခံနိုင်လောက်အောင် ကျုပ်ကလူပီသနေပြီ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Michael_Moorer' target='_blank'>Michael Moorer</a>","Michael Moorer");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("It's hard to think of yourself as a loser at 2 years old.","နှစ်နှစ်သားအရွယ်မှာ ကိုယ့်ကိုယ်ကိုယ် အရှုံးသမားလို့ တွေးကြည့်ရတာ သင့်အတွက် တော်တော်ခက်ခဲမှာပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Jeff_Foxworthy' target='_blank'>Jeff Foxworthy</a>","Jeff Foxworthy");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I missed more than 9000 shots in my career.26 times I was trusted to take the game winning shot and missed.I've failed over and over and over again in my life. And that is why I succeed.","ကစားသမားဘဝတစ်လျှောက်လုံး အကြိမ် ၉,၀၀၀ လောက် လွဲချော်ခဲ့တယ်။ သေချာပေါက် အပိုင်လို့ ကစားဖော်တွေက တွက်ထားတဲ့ အနိုင်အရှုံး အရေးပါတဲ့ ဂိုးသွင်းခွင့် ၂၆ကြိမ် လွဲချော်ခဲ့တယ်။ ကျွန်တော့်ဘဝမှာ ထပ်ကာထပ်ကာ ကျရှုံးခဲ့ဖူးပါတယ်။ အဲဒါကြောင့်ပဲ ကျွန်တော် အောင်မြင်လာတာပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Michael_Jordan' target='_blank'>Michael Jordan</a>","Michael Jordan");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Never let your failures go to your heart or your successes go to your head.","ဘဝရဲ့ အရှုံးတွေကို နှလုံးသားထဲ ဘယ်တော့မှ မရောက်စေနဲ့။ အောင်မြင်ဖူးတာတွေကိုလည်း ခေါင်းထဲ ဘယ်တော့မှ မထည့်နဲ့။","<a class='person_c' href='https://en.wikipedia.org/wiki/Soichiro_Honda' target='_blank'>Soichiro Honda</a>","Soichiro Honda");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Life is not about going easy. It's about being tough and face it.","ဘဝဆိုတာ ဘယ်တော့မှ မလွယ်ကူဘူး။ အမြဲတမ်း ခက်ခဲနေမှာပဲ။ ရင်ဆိုင်လိုက်ပါ။","Unknown","Unknown");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Again, success is built over failure. Until you fail, one will not learn.","ထပ်ပြီးပြောရရင်တော့ အောင်မြင်မှုဟာ အရှုံးတွေပေါ်မှာ တည်ဆောက်ထားတာပါ။ သင် မရှုံးသရွေ့ ဘယ်တော့မှ သင်ခန်းစာရမှာ မဟုတ်ဘူး။","Unknown","Unknown");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I can accept failure, everyone fails at sometime. But I can't accept not trying.","ကျွန်တော် အရှုံးကို လက်ခံနိုင်တယ်။ လူတိုင်းက တစ်ကြိမ်တော့ ရှုံးဖူးမှာပဲ။ မကြိုးစားဘဲနဲ့ လက်လျှော့တာကိုတော့ ကျွန်တော် လက်မခံနိုင်ဘူး။","<a class='person_c' href='https://en.wikipedia.org/wiki/Michael_Jordan' target='_blank'>Michael Jordan</a>","Michael Jordan");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The value of life can be measured by how many times your soul has been deeply stirred.","ဘဝရဲ့တန်ဖိုးကို သင့်စိတ်ထဲ ဘယ်လောက် ဒုက္ခပင်လယ်ဝေခဲ့ရသလဲ ဆိုတာနဲ့ တိုင်းတာနိုင်ပါတယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Soichiro_Honda' target='_blank'>Soichiro Honda</a>","Soichiro Honda");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Don't worry about failures, worry about the chances you miss when you don't even try.","ရှုံးမှာကို မကြောက်ပါနဲ့။ သင်မကြိုးစားဘဲနေလို့ လက်လွှတ်လိုက်ရမယ့် အခွင့်အရေးအတွက်ပဲ ပူပန်ပါ။","<a class='person_c' href='' target='_blank'>Jack Canfield</a>","Jack Canfield");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Failures are expected by losers, ignored by winners.","အရှုံးဆိုတာကို အရှုံးသမားတွေကပဲ မျှော်လင့်ထားကြတာ။ အောင်နိုင်သူတွေက မေ့ထားတတ်ကြတယ်လေ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Jack_Canfield' target='_blank'>Joe Gibbs</a>","Joe Gibbs");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You are confined only be the walls you build yourself.","သင့်ကိုယ်တိုင်တည်ဆောက်တဲ့ နံရံတံတိုင်းတွေကပဲ သင့်ကို ချုပ်နှောင်ထားခဲ့တာ။","Unknown","Unknown");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Fall seven times, stand up eight.","ခုနစ်ကြိမ် လဲကျရင်<br id='dwn'>ရှစ်ကြိမ် ပြန်ထပါ။","Unknown","Unknown");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Failure is an event, not a person. Yesterday ended last night.","အရှုံးဆိုတာ ဖြစ်ရပ်တစ်ခုပါ။ လူတစ်ယောက် မဟုတ်ပါဘူး။ မနေ့ကဆိုတာ ညကပဲ ပြီးသွားပြီ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Zig_Ziglar' target='_blank'>Zig Ziglar</a>","Zig Ziglar");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The only real failure in life is the failure to try.","မကြိုးစားတာကမှ ဘဝရဲ့ တကယ့်အရှုံးအစစ်။","Unknown","Unknown");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Our greatest glory is not in never failing, but in rising up every time we fail.","ကျွန်တော်တို့ရဲ့ အကောင်းဆုံးတောက်ပမှုတွေက ဘယ်တော့မှ မရှုံးခြင်းမဟုတ်ပါဘူး။ ရှုံးနိမ့်တိုင်း ပြန်ထရပ်နိုင်ခဲ့ခြင်းပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson' target='_blank'>Ralph Waldo Emerson</a>","Ralph Waldo Emerson");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The season of failure is the best time for sowing the seeds of success.","အရှုံးရာသီဟာ အနိုင်ပင်တွေ စိုက်ပျိုးဖို့ အကောင်းဆုံး အချိန်အခါပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Paramahansa_Yogananda' target='_blank'>Paramahansa Yogananda</a>","Paramahansa Yogananda");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Failure is simply the oppotunity to begin again, this time more intelligent.","အရှုံးဆိုတာ ပြန်စဖို့ အခွင့်အရေးပါ၊ ဒီတစ်ခါ ပိုပြီး ဉာဏ်သုံးပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Henry_Ford' target='_blank'>Henry Ford</a>","Henry Ford");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("There is only one thing that makes a dream impossible to achieve: the fear of failure.","အိပ်မက်တွေကို တကယ်ဖြစ်မလာစေတဲ့ အရာတစ်ခုပဲ ရှိတယ်။ ရှုံးမှာကို ကြောက်တာပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Paulo_Coelho' target='_blank'>Paulo Coelho</a>","Paulo Coelho");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Pain is temporary. Quitting lasts forever.","ဒုက္ခက ခဏပါ။ အရှုံးပေးလိုက်တာကမှ ထာဝရ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Lance_Armstrong' target='_blank'>Lance Armstrong</a>","Lance Armstrong");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You must make a decision that you are going to move on. It won't happen automatically. You will have to rise up and say, I don't care how hard this is, I don't care how disappointed I am, I'm not going to let this get the best of me. I'm moving on with my life.","ရှေ့ကို ဆက်သွားဖို့ မင်းကိုယ်တိုင် ဆုံးဖြတ်မယ်။ အဲဒါက သူ့အလိုလိုဖြစ်လာမှာတော့ မဟုတ်ဘူး။'ဘယ်လောက်ဘဲ ခက်ခဲပါစေ၊ ငါ့ဆီက အကောင်းဆုံးတွေ ဒင်း ရမသွားရဘူး။ ငါကငါ့ဘဝနဲ့အတူ ရှေ့ဆက်မှာ' လို့ ရဲရဲဝံ့ဝံ့ ပြောပစ်လိုက်ပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Joel_Osteen' target='_blank'>Joel Osteen</a>","Joel Osteen");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Success is strumbling from failure to failure with no loss of enthusiasm.","အောင်မြင်မှုဆိုတာ အရှုံးပေါ် အရှုံးဆင့်ပြီး ယိမ်းယိုင်နေသည့်တိုင် စိတ်အားထက်သန်မှု ပျောက်ဆုံးမသွားခြင်းကနေ ဖြစ်ပေါ်လာတာပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Winston_Churchill' target='_blank'>Winston S. Churchill</a>","Winston S. Churchill");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Don't spread time beating on a wall, hoping to transform it into a door.","နံရံကို လက်သီးနဲ့ထိုးပြီး အချိန်ကုန်မခံနဲ့။ တံခါးအဖြစ် ပြောင်းပစ်ဖို့လုပ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Coco_Chanel' target='_blank'>Coco Chanel</a>","Coco Chanel");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Failure is condiment that gives success its flavour.","အရှုံးဆိုတာ အနိုင်ကို အရသာရှိစေမယ့် ဟင်းခတ်ပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Truman_Capote' target='_blank'>Truman Capote</a>","Truman Capote");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The brick walls are there for a reason.The brick walls are not there to keep us out.The brick walls are there to give us a chance to show how badly we want something.Because the brick walls are there to stop the people who don't want it badly enough. They're there to stop the other people.","အုတ်နံရံတွေက ရည်ရွယ်ချက်တစ်ခုနဲ့ ရှိနေတာ။ ဒီအုတ်နံရံတွေက တို့ကို အပြင်ထုတ်ထားဖို့ မဟုတ်ဘူး။ အုတ်နံရံတွေက ငါတို့တစ်စုံတစ်ခုကို ဘယ်လောက် အသည်းအသန် လိုချင်နေသလဲဆိုတာကို စမ်းသပ်တာ။ ပြီးတော့ အဲဒီအုတ်နံရံတွေက သိပ်ပြင်းပြင်းထန်ထန် မလိုချင်တဲ့လူတွေကို လှည့်ပြန်သွားအောင် တားဆီးဖို့ ရှိနေတာ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Randy_Pausch' target='_blank'>Randy Pausch</a>","Randy Pausch");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it.","သင် အတိုက်အခိုက်တွေနဲ့ ရင်ဆိုင်ကောင်း ရင်ဆိုင်ရမယ်။ ဒါပေမဲ့ ချေမှုန်းမခံရစေနဲ့။ အဲဒီအတိုက်အခိုက်တွေကို ရင်ဆိုင်ဖို့ လိုကိုလိုတယ်။ ဒါမှ သင် ဘယ်သူလဲ၊ ဘာနဲ့ တိုးတက်နိုင်သလဲ၊ ဒီအထဲကနေ ဘယ်လို ကျော်ဖြတ်နိုင်သလဲဆိုတာ သိသွားမယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Maya_Angelou' target='_blank'>Maya Angelou</a>","Maya Angelou");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("My fault, my failure is not in the passions I have, but in my lack of control of them.","ကျွန်တော်ရဲ့ အမှားတွေ၊ အရှုံးတွေက ကျွန်တော့်မှာရှိတဲ့ စွဲလမ်းမှုတွေကြောင့် မဟုတ်ဘူး။ အဲဒါတွေကို မထိန်းချုပ်နိုင်လို့ ထပ်ရှုံး ထပ်မှားနေတာ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Jack_Kerouac' target='_blank'>Jack Kerouac</a>","Jack Kerouac");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("It is hard to fail, but it is worse never to have tried to succeed.","ဆုံးရှုံးနေတာ ခက်တယ်။ ဒါပေမဲ့ အောင်မြင်ဖို့ မကြိုးစားဖြစ်တာက ပိုဆိုးတယ်။","<a class='person_c' href=https://en.wikipedia.org/wiki/Theodore_Roosevelt' target='_blank'>Theodore Roosevelt</a>","Theodore Roosevelt");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.","အမြဲတမ်း ကြိုးစားတယ်။ အမြဲတမ်း ရှုံးခဲ့တယ်။ ကိစ္စမရှိဘူး။ ထပ်ကြိုးစား၊ ထပ်ရှုံး၊ ပိုပြီး ကောင်းကောင်းမွန်မွန်ရှုံး။","<a class='person_c' href='https://en.wikipedia.org/wiki/Samuel_Beckett' target='_blank'>Samuel Beckett</a>","Samuel Beckett");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Success is most often achieved by those who don't know that failure is inevitable.","အရှုံးဆိုတာ ရှောင်လွှဲလို့မရမှန်း မသိသူတွေသာ အောင်မြင်လေ့ရှိကြတယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Coco_Chanel' target='_blank'>Coco Chanel</a>","Coco Chanel");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Life is full of screwups. You're supposed to fail sometimes. It's a required part of the human existance.","ဘဝဟာ စိတ်ပျက်စရာအပြည့်ပဲ။ တစ်ခါတစ်ရံ ရှုံးကိုရှုံးရမယ်။ ဒါဟာ လူသားအဖြစ် တည်ရှိခြင်းအတွက် လိုအပ်ချက်တစ်ခုပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Sarah_Dessen' target='_blank'>Sarah Dessen</a>","Sarah Dessen");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Just because you fail once does't mean you're gonna fail at everything.","တစ်ခါတစ်လေ ဆုံးရှုံးရတာနဲ့ အမြဲတမ်းရှုံးနေမယ်ဆိုတာ အမှန်တရား မဟုတ်ဘူး။","<a class='person_c' href='https://en.wikipedia.org/wiki/Marilyn_Monroe' target='_blank'>Marilyn Monroe</a>","Marilyn Monroe");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Only those who dare to fail greatly can ever achieve greatly.","ကြီးကြီးမားမား ဆုံးရှုံးခံရဲမှ ကြီးကြီးမားမား အောင်မြင်အောင် လုပ်ပြနိုင်မှာ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Robert_F._Kennedy' target='_blank'>Robert F.Kennedy</a>","Robert F.Kennedy");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Never confuse a single defeat with a final defeat.","တစ်ကြိမ်တည်းသော အရှုံးကို နောက်ဆုံးအရှုံးလို့ မရောထွေးပါနဲ့။","<a class='person_c' href='https://en.wikipedia.org/wiki/F._Scott_Fitzgerald' target='_blank'>F.Scott Fitzgerald</a>","F.Scott Fitzgerald");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I'm done with those; regrets are an excuse for people who have failed.","နောင်တဆိုတာ အရှုံးသမားတွေရဲ့ဆင်ခြေ၊ ကျွန်တော့်မှာ နောင်တမရှိဘူး။","<a class='person_c' href='https://en.wikipedia.org/wiki/Ned_Vizzini' target='_blank'>Ned Vizzini</a>","Ned Vizzini");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("I'd rather be partly great than entirely useless.","လုံးဝ အသုံးမဝင်တာထက်စာရင် အချို့နေရာမှာတော့ ကောင်းကောင်းလုပ်ပြချင်သေးတယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Neal_Shusterman' target='_blank'>Neal Shusterman</a>","Neal Shusterman");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("All men make mistakens, but a good man yields when he knows his course is wrong, and repairs the evil. The only crime is pride.","လူတိုင်းက အမှားနဲ့မကင်းဘူး။ ဒါပေမဲ့ လူတော်တစ်ယောက်ဟာ သူ့အမှား သူ သင်ခန်းစာယူပြီး ပြင်ဆင်တယ်။ အဲဒီမှာ တစ်ခုတည်းသော မလုပ်ရမယ့်အပြစ်က မာနပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Sophocles' target='_blank'>Sophocles</a>","Sophocles");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("If you're not prepared to be wrong, you'll never come up with anything original.","မှားဖို့ ပြင်ဆင်မထားရင် သင့် ပင်ကိုယ်ဆိုတာ ဘယ်ထွက်လာတော့မလဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Ken_Robinson_(educationalist)' target='_blank'>Ken Robinson</a>","Ken Robinson");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("If we will be quiet and ready enough, we shall find compensation in every disappointment.","တိတ်တိတ်ဆိတ်ဆိတ်နဲ့ အဆင်သင့်ပြင်ထားရင်၊ မကျေနပ်စရာ ကိစ္စတိုင်းရဲ့ ဖြေသိမ့်ရာကို ရှာလို့ တွေ့နိုင်ပါလိမ့်မယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Henry_David_Thoreau' target='_blank'>Henry David Thoreau</a>","Henry David Thoreau");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Science, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth.","သိပ္ပံပညာဆိုတာ အမှားတွေနဲ့ တည်ဆောက်ထားတာ မောင်ရင်ရေ့။ ဒါပေမဲ့ အဲဒါက အသုံးဝင်တဲ့ အမှားတွေပါ။ ဘာပြုလို့လဲဆိုတော့ သူတို့က အမှန်ဆီ တဖြည်းဖြည်း ရွေ့သွားကြတယ်လေ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Jules_Verne' target='_blank'>Jules Verne</a>","Jules Verne");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The phoenix must burn to emerge.","ဖီးနစ်ငှက်ဟာ ပြန်လည်ရှင်သန်ဖို့ အလောင်ကျွမ်းခံရတယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Janet_Fitch' target='_blank'>Janet Fitch</a>","Janet Fitch");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Success is determined not by whether or not you face obstacles, but by your reaction to them.And if you look at these obstacles as a containing fence, they become your excuse for failure. If you look at them as a hurdle, each one strengthens you for the next.","အောင်မြင်မှုဆိုတာ မင်း အခက်အခဲတွေ တွေ့ မတွေ့ဆိုတာနဲ့ ဆုံးဖြတ်မှာမဟုတ်ဘူး။အဲဒီ အခက်အခဲ၊ အတားအဆီးတွေကို မင်း ဘယ်လိုရင်ဆိုင်လဲဆိုတာ ကြည့်ကြမှာ။ အဲဒီ အတားအဆီးတွေကို တံတိုင်းလို့မြင်ရင် မင်းအတွက် ဆင်ခြေပေးစရာပေါ့။ တန်းကျော်ပြေးပွဲက တန်းလို့မြင်ရင်တော့ ခွန်အားဖြစ်စရာပေါ့။","<a class='person_c' href='https://en.wikipedia.org/wiki/Ben_Carson' target='_blank'>Ben Carson</a>","Ben Carson");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Winners are not afraid of losing. But losers are. Failure is part of the process of success. People who avoid failure also avoid success.","အောင်မြင်သူတွေက ရှုံးဖို့ မကြောက်ကြဘူး။ အရှုံးသမားတွေပဲ ကြောက်ကြတာ။ အရှုံးဆိုတာ အောင်မြင်မှုရဲ့ အစိတ်အပိုင်းပဲ။ အရှုံးကို ရှောင်ရှားချင်ရင် အောင်မြင်မှုနဲ့လည်း ဝေးကွာသွားလိမ့်မယ်။","<a class='person_c' href='https://en.wikipedia.org/wiki/Robert_Kiyosaki' target='_blank'>Robert T.Kiyosaki</a>","Robert T.Kiyosaki");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("The only real mistake is the one from which we learn nothing.","အမှားအစစ်က ဘာမှ သင်ခန်းစာမယူဖြစ်လိုက်တဲ့ အမှားတစ်ခုပဲ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Henry_Ford' target='_blank'>Henry Ford</a>","Henry Ford");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("If at first you don't succeed, destroy all evidence that you tried.","ပထမဆုံးအကြိမ်မှာ မအောင်မြင်ဘူးဆိုရင် သင် ကြိုးပမ်းခဲ့တယ်ဆိုတဲ့ သက်သေတွေ အားလုံး ဖျောက်ပစ်လိုက်ပါ။","<a class='person_c' href='https://en.wikipedia.org/wiki/Steven_Wright' target='_blank'>Steven Wright</a>","Steven Wright");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("Everybody said 'Follow your heart'. I did, it got broken.","လူတိုင်းကပြောတယ်။ နှလုံးသားနောက် လိုက်ပါတဲ့။ ကျွန်တော် လုပ်ကြည့်တော့ အဲဒီဟာ ကွဲကြေသွားပါရောလား။","<a class='person_c' href='https://en.wikipedia.org/wiki/Agatha_Christie' target='_blank'>Agatha Christie</a>","Agatha Christie");
+/////////////////////////////////////////////////////
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+insert into dgu(eng_data,myan_data,person,person_name)
+values("","","","");
+
+<?php 
+                $getid="SELECT * FROM dgu ORDER BY dgu_id ASC;";
+                $numid=mysqli_query($conn,$getid);
+                while($row = mysqli_fetch_array($numid))
+                {
+                echo '<option class=op value="'.$row["dgu_id"].'">'.$row["dgu_id"].'</option>';
+                }
+            ?>

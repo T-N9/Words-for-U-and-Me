@@ -1,0 +1,89 @@
+$theme-color-1:#015c92;
+$theme-color-2:#2d82b5;
+$theme-color-3:rgb(83,166,216);
+$theme-color-4:#88cdf6;
+$theme-color-5:#bce6ff;
+$default-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$default-text-shadow:2px 2px 4px $theme-color-1;
+$div-default-bg-color:linear-gradient(to right,$theme-color-2,$theme-color-2,$theme-color-3,$theme-color-2,$theme-color-2,$theme-color-3);
+@mixin button-theme {
+    box-shadow: $default-box-shadow;
+    text-shadow: $default-text-shadow;
+    transition: all .3s ease;
+    outline: none;
+    cursor: pointer;   
+    background-color: transparent;
+    color:white;
+}
+#menu_body{
+    overflow: hidden;
+    background: $theme-color-1;
+    .all_btn{
+        @include button-theme;
+        margin-left: 12%;
+        border:1px solid white;
+        font-weight: bold;
+        font-style: italic;
+        float: left;
+        font-size: 30px;
+        width: 50px;
+        height: 40px;
+        border-radius: 100%;
+    }
+    .all_btn:hover{
+        font-weight: bolder;
+        background-color: rgba(255,255,255,0.5);
+        
+    }
+    #menu_div{
+        margin:3% 16% 3% 16%;
+        height: 520px;
+        background: $div-default-bg-color;
+        overflow: auto;
+        box-shadow: $default-box-shadow;
+        a{
+            text-decoration: none;
+            #cate1{
+                border:3px ridge white;
+                margin:3% 5% 0 5%; 
+                border-radius: 10px;
+                box-shadow: $default-box-shadow;
+                // display: inline-block;  
+                #cate1_p{
+                    margin-left: 2%;
+                    color:white;
+                    font-size: 200%;
+                    text-shadow: $default-text-shadow;
+                }
+                &:hover{
+                    color:white;
+                    font-weight: bold;
+                    background-color: rgba(255,255,255,0.5);
+                }
+            }
+            
+        }
+        
+    }
+    @media (max-width: 575.98px) {
+        
+        .all_btn{
+            width: 40px;
+            height: 30px;
+            margin-left: 0%;
+            display: block;
+        }
+        #menu_div{
+            // margin:10% 7% 0% 7%;
+            margin:6% 10% 3% 10%;
+            height: 520px;
+        }
+        #cate1_p:hover{
+            font-weight: normal;
+        }
+    }
+}
+@media (max-width: 575.98px) {
+    
+}
+
